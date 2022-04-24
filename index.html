@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="all-father">
+        <div class="cards-parent">
+            <div class="card-container">
+                <div class="card">
+                    <img src="img/omega profile.jpg" alt="">
+                    <h1>title</h1>
+                    <h3>front-end developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure sit, dolor, molestias nemo dicta voluptate quia voluptatum earum incidunt laboriosam tempora similique eligendi sequi fugiat corrupti animi veritatis minus! Culpa.</p>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">know more</a>
+                </div>
+            </div>
+            
+            <div class="card-container">
+                <div class="card">
+                    <img src="img/omega profile.jpg" alt="">
+                    <h1>title</h1>
+                    <h3>front-end developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure sit, dolor, molestias nemo dicta voluptate quia voluptatum earum incidunt laboriosam tempora similique eligendi sequi fugiat corrupti animi veritatis minus! Culpa.</p>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">know more</a>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <img src="img/omega profile.jpg" alt="">
+                    <h1>title</h1>
+                    <h3>front-end developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure sit, dolor, molestias nemo dicta voluptate quia voluptatum earum incidunt laboriosam tempora similique eligendi sequi fugiat corrupti animi veritatis minus! Culpa.</p>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">know more</a>
+                </div>
+            </div>
+            
+            <div class="card-container">
+                <div class="card">
+                    <img src="img/omega profile.jpg" alt="">
+                    <h1>title</h1>
+                    <h3>front-end developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure sit, dolor, molestias nemo dicta voluptate quia voluptatum earum incidunt laboriosam tempora similique eligendi sequi fugiat corrupti animi veritatis minus! Culpa.</p>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">know more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <script>
+        var card_container = $(".card-container");
+        
+        $(document).ready(function () {
+            console.log(card_container.length);
+            var card_active = false;
+            
+            set_card_pos(card_container);
+            
+            function set_card_pos(card_name) {
+                var left_card_pos = 0;
+                var right_card_pos = 0;
+                
+                for (let i = 0; i < card_name.length; i++) {
+                    const element = card_name[i];
+                    if (i % 2 == 0) {
+                        console.log("yes");
+                        element.style.top = right_card_pos + "%";
+                        right_card_pos = right_card_pos + 50;
+                    } else {
+                        element.style.left = "50%";
+                        element.style.top = left_card_pos + "%";
+                        left_card_pos = left_card_pos + 50;
+                    }
+                }
+            }
+
+            $(".card-container").click(function (e) {
+                e.preventDefault();
+                console.log("hovered", this);
+                var newE = document.createElement("div");
+                newE.id = "active_card";
+
+                var active_card_style = {
+                    tTp: this.style.top,
+                    tLft: this.style.left,
+                    tWth: this.clientWidth,
+                    tHig: this.clientHeight,
+                };
+                var newE_sty = newE.style;
+
+                document.getElementsByClassName("cards-parent")[0].appendChild(newE);
+                newE_sty.width = active_card_style.tWth + "px";
+                newE_sty.height = active_card_style.tHig + "px";
+                newE_sty.left = active_card_style.tLft;
+                newE_sty.top = active_card_style.tTp;
+
+                setTimeout(() => {
+                    var Active_c = document.getElementById("active_card").style;
+                    Active_c.width = "100%";
+                    Active_c.height = "100%";
+                    Active_c.left = 0;
+                    Active_c.top = 0;
+                    Active_c.opacity = 1;
+                }, 100);
+            });
+
+            $(".cards-parent").mouseout(function () {
+                $("#active_card").remove();
+            });
+
+
+            $(".all-father").click(function (e) { 
+                e.preventDefault();
+                console.log("clicket father side");
+            });
+        });
+    </script> -->
+</body>
+
+</html>
