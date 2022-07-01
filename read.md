@@ -1,6 +1,6 @@
 <header>
   <h2>Cards</h2>
-  <h5>Html, Css, card design</h5>
+  <h5>Html, Css, card</h5>
 </header>
 
 <figure>
@@ -13,4 +13,5 @@
     <a href='https://heyomega.github.io/cards/' target"_blank">Github</a><br/>
     <a href='https://codepen.io/heyomega/pen/wvmBRNm' target="_blank">Codepen</a><br/>
   </div>
+  <p>Html, Css responsive card design.</p>
 </div>
