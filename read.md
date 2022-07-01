@@ -10,7 +10,7 @@
 <div className='article-text'>
   <div className='article-text-header'>
     <time dateTime='Apr 24, 2022'>Date: Apr 24, 2022</time><br/>
-    <a href='https://heyomega.github.io/watch_face_01.github.io/' target"_blank">Github</a><br/>
+    <a href='https://heyomega.github.io/cards/' target"_blank">Github</a><br/>
     <a href='https://www.deviantart.com/heyome9a/art/Watch-Face-01-879356377' target="_blank">Deviant art</a><br/>
   </div>
   <p>Free and open-source software that allows users to set animated desktop wallpapers and screensavers.
