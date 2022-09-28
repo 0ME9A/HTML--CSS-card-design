@@ -1,16 +1,67 @@
-<header>
-  <h2>Cards</h2>
-  <h5>Html, Css, card design</h5>
-</header>
+# The Cards
 
-<figure>
-  <img src='https://user-images.githubusercontent.com/83957658/176827990-84a2e0a5-2403-4a4f-9dfe-01d2f879e395.png' alt="project preview image"/>
-</figure>
-<br/>
-<div className='article-text'>
-  <div className='article-text-header'>
-    <time dateTime='Apr 24, 2022'>Date: Apr 24, 2022</time><br/>
-    <a href='https://heyomega.github.io/cards/' target"_blank">Github</a><br/>
-    <a href='https://codepen.io/heyomega/pen/wvmBRNm' target="_blank">Codepen</a><br/>
-  </div>
-</div>
+HTML, CSS, simple cards design
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Favorite Spot](#favorite-spot)
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+
+
+### Screenshot
+
+![](https://raw.githubusercontent.com/0ME9A/screenshots/main/cards.png)
+
+
+
+### Links
+
+- Solution URL: [View](https://github.com/0ME9A/cards/)
+- Live Site URL: [Go Live](https://0me9a.github.io/cards/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- Mobile-first workflow
+- [Sass](https://sass-lang.com/) (stylesheet language)
+
+### What I learned
+- [Sass](https://sass-lang.com/) (stylesheet language)
+
+
+
+### Useful resources
+
+- [Google fonts](https://fonts.google.com/) - This helped me for custome font.
+
+## Author
+
+- Website - [OMEGA](https://www.ome9a.com)
+- Frontend Mentor - [@0ME9A](https://www.frontendmentor.io/profile/0me9a)
+
+## Favorite Spot
+- Github [@OMEGA](https://www.github.com/0me9a)
+- Frontend Mentor [@ome9a](https://www.frontendmentor.io/profile/0me9a)
+- Figma [@omega1](https://www.figma.com/@omega1)
+- Hacker Rank [@ome9a](https://www.hackerrank.com/ome9a)
